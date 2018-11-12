@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  font-family: myFont;
+}
+
+#wrapper {
+  border-style: solid;
+  border-color: green;
+  border-width: thick;
+  display: inline-block;
+}
+
+#head {
+  font-size: 2em;
+  color: green;
+  border-bottom: 4px solid green;
+  background-color: lightgreen;
+}
+
+#myAssignment, #myAnswer {
+  color: green;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(img/pingwing.ttf);
+}
