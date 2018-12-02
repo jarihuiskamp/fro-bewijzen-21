@@ -1,0 +1,132 @@
+html, body {
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  color: white;
+  overflow: hidden;
+}
+
+.nav {
+  position: fixed;
+  height: 100vh;
+  display: grid;
+  align-content: center;
+}
+.nav .navAll {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav .navAll .navMenuitem {
+  color: #ccc;
+  background: #333;
+  text-decoration: none;
+  display: block;
+  padding: .5em 1.5em .5em 1em;
+  margin: .5em 0;
+  border-left: 5px solid transparent;
+  border-radius: 0 2em 2em 0;
+  transition: transform 1s;
+}
+.nav .navAll .navMenuitem .nav__icon {
+    color: #333;
+    margin: 0 1em;
+    float: right;
+}
+.nav .navAll .navMenuitem:hover {
+    transform: scale(1.2);
+}
+.nav .navAll .navMenuitem.navActive .nav__icon {
+    color: white;
+}
+.nav .navAll .navRed:hover {
+  color: red;
+  background: #333333;
+  border-left: 5px solid white;
+}
+.nav .navAll .navBlue:hover {
+  color: blue;
+  background: #333333;
+  border-left: 5px solid white;
+}
+.nav .navAll .navGreen:hover {
+  color: green;
+  background: #333333;
+  border-left: 5px solid white;
+}
+.nav .navAll .navYellow:hover {
+  color: yellow;
+  background: #333333;
+  border-left: 5px solid white;
+}
+.nav .navAll .navPurple:hover {
+  color: purple;
+  background: #333333;
+  border-left: 5px solid white;
+}
+
+.content {
+  width: 500vw;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  transition: margin-left .8s ease-in-out;
+}
+
+.content .contentPage {
+  height: 100vh;
+  padding: 2em 2em 2em 9em;
+  box-sizing: border-box;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  }
+
+.content .contentPage .photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+    }
+
+.content .contentPage .photos .photo {
+  max-width: 50%;
+  margin: 1em auto;
+  text-align: center;
+}
+
+.photo {
+  border: white 5px solid;
+  height: 150px;
+  width: 350px;
+  transition: all ease 0.5s;
+  transform: scale(1);
+}
+
+.photo:hover {
+  transform: scale(1.4);
+}
+
+  .content .contentPage {
+    display: block;
+    overflow-y: auto;
+}
+  .content .red {
+    background: red;
+}
+  .content .blue {
+    background: blue;
+}
+  .content .green {
+    background: green;
+}
+  .content .yellow {
+    background: yellow;
+    color: black;
+}
+  .content .purple {
+    background: purple;
+    color: black;
+}
+  .content .head {
+    font-size: 50px;
+}
