@@ -12,6 +12,7 @@ html, body {
   height: 100vh;
   display: grid;
   align-content: center;
+  z-index: 100;
 }
 .nav .navAll {
   list-style-type: none;
