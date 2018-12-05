@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+main img {
+  height: 200px;
+  width: 200px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+footer {
+    background: grey;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    position: relative;
+    padding: 1rem;
+    margin-top: 270px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    cursor: pointer;
+}
+
+#validatie {
+    margin-top: 15px;
+}
