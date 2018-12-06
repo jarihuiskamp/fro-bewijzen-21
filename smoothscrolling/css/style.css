@@ -67,6 +67,19 @@ html, body {
   border-left: 5px solid white;
 }
 
+.navPijlen {
+  color: #333;
+  font-size: 2em;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 0.2em;
+}
+
+.navPijl:hover {
+    color: #fff;
+    cursor: pointer
+}
+
 .content {
   width: 500vw;
   display: grid;
@@ -126,7 +139,6 @@ html, body {
 }
   .content .purple {
     background: purple;
-    color: black;
 }
   .content .head {
     font-size: 50px;
