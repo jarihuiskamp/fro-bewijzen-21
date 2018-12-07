@@ -3,6 +3,45 @@ body {
   font-family: sans-serif;
 }
 
+.h1title {
+  color: #fff;
+  font-size: 6em;
+  margin: 0;
+  padding: 0;
+  transition: .5s;
+  transform: perspective(1000px) rotateX(35deg);
+}
+
+.h1title .char1,
+.h1title .char2,
+.h1title .char3,
+.h1title .char4,
+.h1title .char6,
+.h1title .char7,
+.h1title .char8,
+.h1title .char9,
+.h1title .char10,
+.h1title .char11,
+.h1title .char12,
+.h1title .char13 {
+  display: inline-block;
+  padding: 0 10px;
+  transition: .5s;
+  text-shadow: 0 5px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 50px 20px rgba(0, 0, 0, 0.1);
+  filter: blur(.5px);
+}
+
+.h1title .char1,
+.h1title .char3,
+.h1title .char6,
+.h1title .char8,
+.h1title .char10,
+.h1title .char12 {
+  background: #d82475;
+  transform: skewY(-15deg);
+}
+
 main img {
   height: 200px;
   width: 200px;
